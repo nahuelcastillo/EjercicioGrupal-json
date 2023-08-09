@@ -25,7 +25,7 @@ async function getData() {
     const response = await fetch(DATA_URL)
     if (!response.ok) {
       throw new Error("Error al traer datos");
-  }
+    }
     const data = await response.json()
     return data
   } catch (error) {
@@ -33,7 +33,7 @@ async function getData() {
   }
 }
 
-const data = getData().then(data => {
+getData().then(data => {
   showData(data.students)
 })
 

@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+div{
+    background-color: aqua;
+    height: 50%;
+   margin-left: 15%;
+   margin-right: 15%;
+   border: 1px solid black;
+}
+
+div p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
